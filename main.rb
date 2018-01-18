@@ -90,7 +90,7 @@ def get_last_build(user_name,repo_name,i)
   k=0
   begin
     @client.clear_cache!
-    travis_repo= @@client.repo("ChenZhangg/#{user_name}_#{repo_name}_#{i}")
+    travis_repo= @client.repo("ChenZhangg/#{user_name}_#{repo_name}_#{i}")
     last=travis_repo.last_build
   rescue
     puts $!
