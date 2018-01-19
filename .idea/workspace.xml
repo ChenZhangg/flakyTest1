@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c436f63e-b2c8-422a-922d-c425ebc76e1f" name="Default" comment="" />
+    <list default="true" id="c436f63e-b2c8-422a-922d-c425ebc76e1f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/main.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
-              <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+              <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -87,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -100,11 +101,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../travisLogAnalysis" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -233,16 +235,16 @@
       <workItem from="1515665624993" duration="33569000" />
       <workItem from="1516071757168" duration="16127000" />
       <workItem from="1516151510885" duration="26099000" />
-      <workItem from="1516280103727" duration="1208000" />
+      <workItem from="1516280103727" duration="1806000" />
+      <workItem from="1516345758734" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133405000" />
+    <option name="totallyTimeSpent" value="134026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="534" y="180" width="1561" height="783" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13004485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -275,6 +277,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4644">
+          <caret line="258" column="44" lean-forward="false" selection-start-line="258" selection-start-column="44" selection-end-line="258" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4644">
@@ -395,7 +413,7 @@
     <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
-          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
           <folding />
         </state>
       </provider>
