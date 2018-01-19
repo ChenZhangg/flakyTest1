@@ -107,9 +107,9 @@ end
 def pre_build_completed(user_name,repo_name,i)
   sleep 300
   last=get_last_build(user_name,repo_name,i)
-  puts "*******************The information of last build of ChenZhangg/#{user_name}_#{repo_name}_#{i} is #{last?last.number:0}********************"
+  puts "*******************The information of last build of ChenZhangg/#{user_name}_#{repo_name}_#{i} is #{last?last.number:'0'}********************"
   while(last && last.finished? != true)
-    puts "*******************The last build #{last?last.number:0} of ChenZhangg/#{user_name}_#{repo_name}_#{i} is not finished.********************"
+    puts "*******************The last build #{last?last.number:'0'} of ChenZhangg/#{user_name}_#{repo_name}_#{i} is not finished.********************"
     sleep 300
     last=get_last_build(user_name,repo_name,i)
   end
