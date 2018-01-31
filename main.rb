@@ -191,6 +191,5 @@ def csv_traverse(csv_file)
   end
   puts '***********************CSV TRAVERSE OVER**************************'
 end
-csv_traverse(repoAbove1000WithTravis.csv)
-#csv_traverse('java_github_repo.csv')
+csv_traverse('repoAbove1000WithTravis.csv')
 
