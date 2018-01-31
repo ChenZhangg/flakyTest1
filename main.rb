@@ -8,7 +8,7 @@ require 'travis/client'
 
 @number_of_repositories=1
 @client = Travis::Client.new
-@github_username=ChenZhangg
+@github_username='ChenZhangg'
 def clone_repo(user_dir,repo_url,repo_dir)
   i=0
   while(i<600)
@@ -191,6 +191,6 @@ def csv_traverse(csv_file)
   end
   puts '***********************CSV TRAVERSE OVER**************************'
 end
-csv_traverse(ARGV[0])
+csv_traverse(repoAbove1000WithTravis.csv)
 #csv_traverse('java_github_repo.csv')
 
